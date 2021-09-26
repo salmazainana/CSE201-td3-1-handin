@@ -35,7 +35,11 @@ int main(int argc, char* argv[])
   // This code will be executed only if you set GRADING to a value different from 1
 
   {
+<<<<<<< Updated upstream
           std::cout << "a better, new initial message" << std::endl;
+=======
+          std::cout << "a_better_message " << std::endl;
+>>>>>>> Stashed changes
   }
   // END OF THE CUSTOM CODE SECTION
 #else
