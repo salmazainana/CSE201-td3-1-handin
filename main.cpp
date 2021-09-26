@@ -34,9 +34,13 @@ int main(int argc, char* argv[])
   // START OF THE CUSTOM CODE SECTION
   // This code will be executed only if you set GRADING to a value different from 1
 
-  {
-          std::cout << "new initaidnsdj  " << std::endl;
+{
+          std::cout << "better message  " << std::endl;
+          std::cout << "new_initial_messa " << std::endl;
+
   }
+
+
   // END OF THE CUSTOM CODE SECTION
 #else
   // RUN THE AUTOMATIC GRADER
