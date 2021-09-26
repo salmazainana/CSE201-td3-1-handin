@@ -117,7 +117,7 @@ bool simulate_projectile(const double magnitude, const double angle,
 
 
 
-double* sort(double* liste, int &
+void sort(double* liste, int &
           size_of_list){
     bool sorted = false;
     while (sorted == false){
@@ -131,12 +131,14 @@ double* sort(double* liste, int &
                 liste[i]=liste[i+3];
                 liste[i+1]=liste[i+4];
                 liste[i+2]= liste[i+5];
-                liste[i+3], liste[i+4], liste[i+5]= t,x,y;
+                liste[i+3]=t;
+                liste[i+4]=x;
+                liste[i+5]=y;
             }
 
        }
     }
-    return liste;
+
 }
 
 void merge_telemetry(double **telemetries,
